@@ -1,5 +1,7 @@
 # simgps
 
+[日本語](README_ja.md)
+
 Interactive CLI tool for controlling iOS Simulator GPS location
 
 ## Installation
