@@ -4,8 +4,28 @@ iOS Simulator の GPS 位置を操作するインタラクティブ CLI ツー�
 
 ## インストール
 
+### Homebrew
+
 ```bash
-cargo install --path .
+brew install aovoq/tap/simgps
+```
+
+### Shell script
+
+```bash
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/aovoq/simgps/releases/latest/download/simgps-installer.sh | sh
+```
+
+### Cargo
+
+```bash
+cargo install simgps
+```
+
+### From source
+
+```bash
+cargo install --git https://github.com/aovoq/simgps
 ```
 
 ## 使い方
@@ -37,3 +57,7 @@ simgps --step 1 35.66 139.69  # 1m ステップ
 - macOS
 - Xcode Command Line Tools (`xcrun simctl`)
 - 起動中の iOS Simulator
+
+## License
+
+MIT
