@@ -1,6 +1,6 @@
 [package]
 name = "simgps"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "iOS Simulator GPS CLI tool"
 homepage = "https://github.com/aovoq/simgps"
